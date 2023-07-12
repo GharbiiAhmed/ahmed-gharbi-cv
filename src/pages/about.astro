@@ -1,0 +1,138 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+import ContactCTA from "../components/ContactCTA.astro";
+import Hero from "../components/Hero.astro";
+---
+
+<BaseLayout
+	title="About | Ahmed Gharbi"
+	description="About Ahmed Gharbi"
+>
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="About"
+				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
+			>
+				<img
+					width="873"
+					height="873"
+					src="/assets/mee.JPG"
+					alt="Jeanine White at work with a colleague"
+				/>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Background</h2>
+				<div class="content">
+					<p>
+						Forward-looking student from the Private Higher School
+						of Engineering and Technology ESPRIT, specializing in
+						software engineering. I am equipped with a diverse skill
+						set and a passion for developing streamlined procedures
+						to enhance performance. Proficient in various
+						programming languages and technologies, including Java,
+						Symfony, Mobile Development, PHP, HTML/CSS, SQL, and
+						PL/SQL, I am well-prepared to contribute to software
+						development projects. With experience working
+						collaboratively in teams, I possess strong leadership
+						skills and the ability to guide my team towards
+						effective solutions. Additionally, I am currently
+						expanding my knowledge by exploring Node.js, React.js,
+						and Angular. With a strong focus on innovation and a
+						commitment to delivering high-quality solutions, I am
+						eager to leverage my skills and contribute to the
+						success of an organization in the software engineering
+						field.
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Education</h2>
+				<div class="content">
+					<p>Lycée Jeunes Filles de Bizerte.</p>
+					<p>°baccalaureate | 2020.</p>
+					<p>
+						Private Higher School of Engineering and Technology
+						ESPRIT.
+					</p>
+					<p>°Engineering | 2021 – present.</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Skills</h2>
+				<div class="content">
+					<p>
+						Advanced – Javascript, Unix, Git, Scrum, Agile, Java,
+						Symfony,
+					</p>
+					<p>
+						Codename one, Mobile, QT, C, C++, Python, SDL 1.2,
+						HTML/CSS, PHP, SQL, PLSQL
+					</p>
+				</div>
+			</section>
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>
