@@ -23,5 +23,5 @@ website desktop and mobile applications using Symfony, Java and codename one
 multiplayer Game using unity + website using NodeJS & react 
 
 
-> Global Game Jam 2024.
+> Global Game Jam | January 2024.
 I participated in a Global Game Jam 2024 in Tunisia for 48 hours, we created a game with team from ESPRIT. The theme was "Make me laugh".
