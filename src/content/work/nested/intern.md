@@ -14,16 +14,14 @@ tags:
 
 > Private Higher School of Engineering and Technology ESPRIT | 2021 - Present.
 
-Worked in groups of 5 to 6 students to develop : 
-
-1- a game using sdl 1.2
-
-2- a website using php html/css javascript pdo
-
-3- a desktop application using c++ and qt
-
-4- a website desktop and mobile applications using:
-
-Symfony, Java and codename one 
+Designed and developed : 
+game using sdl 1.2 
+website using php html/css javascript pdo 
+desktop application using c++ and qt
+website desktop and mobile applications using Symfony, Java and codename one
+3D VR culinary education application using Unity.
+multiplayer Game using unity + website using NodeJS & react 
 
 
+> Global Game Jam 2024.
+I participated in a Global Game Jam 2024 in Tunisia for 48 hours, we created a game with team from ESPRIT. The theme was "Make me laugh".

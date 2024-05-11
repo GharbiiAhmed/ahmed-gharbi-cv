@@ -10,6 +10,13 @@ tags:
   - Branding
 ---
 
+> MediaLabFactory. | July - August , 2023.
+
+
+Implementation of an integrated system for monitoring websites to assess and report in real time the availability, performance, security, content, mobile design, and 
+
+ validity of SSL certificates.
+ 
 > Dar Ben Gaied Hassine. | June – July, 2021.
 
 
@@ -24,3 +31,4 @@ final online posting.
 Successfully managed social media platforms, utilizing 
 
 captivating visuals to engage and grow the online audience.
+
