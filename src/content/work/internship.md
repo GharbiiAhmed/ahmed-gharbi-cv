@@ -10,7 +10,7 @@ tags:
   - Branding
 ---
 
-> MediaLabFactory. | July - August , 2023.
+> MediaLabFactory. | July - September , 2023.
 
 
 Implementation of an integrated system for monitoring websites to assess and report in real time the availability, performance, security, content, mobile design, and 
