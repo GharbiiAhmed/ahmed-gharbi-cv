@@ -9,6 +9,13 @@ tags:
   - Design
   - Branding
 ---
+> CGI Studio. | July - September, 2024.
+
+
+I developed a 3D, first-person shooter (FPS) version of the
+popular game 'Among Us.' This project involved designing and
+implementing new mechanics and perspectives, while
+maintaining the core elements of the original gameplay.
 
 > MediaLabFactory. | July - September , 2023.
 
