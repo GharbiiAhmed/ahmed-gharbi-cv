@@ -26,34 +26,3 @@ Designed and implemented a 3D FPS version of 'Among Us' using Unity. Introduced 
 
 Developed an integrated web monitoring tool to assess website availability, performance, content, and security in real time. Implemented SSL certificate validation and cross-platform reporting dashboards.
 
-## Key Projects
-
-### Full-Stack LMS Platform
-Role-based Learning Management System with real-time chat, live sessions, and progress tracking.
-
-**Tech Stack:** React (Vite), Node.js, PostgreSQL, WebSockets
-
-### 3D Multiplayer Survival Game (UE5)
-Immersive survival game featuring crafting mechanics, zombie enemies, and team-based missions.
-
-**Tech Stack:** Unreal Engine 5, C++, Blueprints
-
-### 3D AI Game in Unity
-Advanced AI implementation using A*, Ad-Hoc, and Monte Carlo pathfinding algorithms.
-
-**Tech Stack:** Unity, C#, ML-Agents
-
-### Multiplayer Game with Web Admin
-Web-based admin dashboard integrated with Unity gameplay for real-time game management.
-
-**Tech Stack:** Unity, React, Node.js, WebSockets
-
-### Flight Booking App
-Cross-platform mobile application with PDF generation capabilities.
-
-**Tech Stack:** Flutter, Firebase
-
-### VR Ice Cream Game
-Immersive 3D VR game developed for Oculus platform.
-
-**Tech Stack:** Unity, C#, Oculus SDK 
