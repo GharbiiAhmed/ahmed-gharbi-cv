@@ -25,4 +25,3 @@ Designed and implemented a 3D FPS version of 'Among Us' using Unity. Introduced 
 **July - September, 2023**
 
 Developed an integrated web monitoring tool to assess website availability, performance, content, and security in real time. Implemented SSL certificate validation and cross-platform reporting dashboards.
-
